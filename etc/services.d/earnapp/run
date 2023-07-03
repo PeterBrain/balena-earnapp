@@ -1,0 +1,4 @@
+#!/command/with-contenv bash
+
+exec /usr/bin/earnapp_service
+sleep 5

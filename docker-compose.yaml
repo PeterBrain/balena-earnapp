@@ -1,0 +1,14 @@
+---
+version: '2'
+
+services:
+  earnapp:
+    build: ./
+    privileged: true
+    volumes:
+      - earnapp-config:/etc/earnapp
+      - earnapp-data:/earnapp
+
+volumes:
+  earnapp-config:
+  earnapp-data:
