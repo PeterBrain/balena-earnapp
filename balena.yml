@@ -6,7 +6,7 @@ description: >-
 post-provisioning: >-
   ## Usage instructions
 
-  Allow a few minutes for your device to download the app. The service will restart a few times. Once it's completed, the registration link for Earnapp should be printed to logs.
+  It will take a few minutes for your device to download the app. The service will restart a few times. Once completed, the registration link for Earnapp will be added to the logs.
 assets:
   repository:
     type: blob.asset

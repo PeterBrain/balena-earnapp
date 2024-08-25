@@ -17,8 +17,6 @@ Supported arm architectures are `armv8`+ and `aarch64/arm64` (e.g.: Raspberry Pi
 | armv8 | true | Raspberry Pi Zero 2 W (64bit), Raspberry Pi 2[^1], Raspberry Pi CM4 IO Board, Raspberry Pi Compute Module 3 & 4, Raspberry Pi 3 (using 64bit OS), Raspberry Pi 400, Raspberry Pi 4 (using 64bit OS), Raspberry Pi 5 |
 | aarch64 / arm64 | true | ... |
 
-[^1]: Only **V1.2** with BCM2837 SoC (Cortex-A53) is supported, **V1.1** with BCM2836 SoC (Cortex-A7) is **not**.
-
 > [!IMPORTANT]
 > EarnApp is only compatible with 64-bit operating systems; it is not compatible with 32-bit systems.
 
@@ -40,6 +38,8 @@ Supported arm architectures are `armv8`+ and `aarch64/arm64` (e.g.: Raspberry Pi
 
 ## References
 
-* Raspberry Pi Hardware details: <https://de.wikipedia.org/wiki/Raspberry_Pi> (German version does have a more detailed hardware table)
+* Raspberry Pi Hardware details: <https://de.wikipedia.org/wiki/Raspberry_Pi> (The German version has a more detailed hardware table)
 * Earnapp Docs for hardware/software requirements: <https://help.earnapp.com/hc/en-us/articles/10261224561553-Installation-instructions-and-hardware-software-requirements>
 * Balena SBC device types: <https://docs.balena.io/reference/hardware/devices/>
+
+[^1]: Only **V1.2** with BCM2837 SoC (Cortex-A53) is supported, **V1.1** with BCM2836 SoC (Cortex-A7) is **not**.
