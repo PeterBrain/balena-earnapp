@@ -1,0 +1,30 @@
+---
+name: balena-earnapp
+type: sw.application
+description: >-
+  Earn money with Earnapp on BalenaOS using a Raspberry Pi or supported ARM platform
+post-provisioning: >-
+  ## Usage instructions
+
+  Allow a few minutes for your device to download the app. The service will restart a few times. Once it's completed, the registration link for Earnapp should be printed to logs.
+assets:
+  repository:
+    type: blob.asset
+    data:
+      url: 'https://github.com/peterbrain/balena-earnapp'
+  #logo:
+  #  type: blob.asset
+  #  data:
+  #    url: >-
+  #      https://raw.githubusercontent.com/peterbrain/balena-earnapp/master/logo.png
+data:
+  applicationEnvironmentVariables:
+  defaultDeviceType: raspberrypi3-64
+  supportedDeviceTypes:
+    - raspberrypi3-64
+    - raspberrypi4-64
+    - raspberrypi400-64
+    - raspberrypi5
+    - raspberrypicm4-ioboard
+    - raspberrypi0-2w-64
+version: 0.1.0
