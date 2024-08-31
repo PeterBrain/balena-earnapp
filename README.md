@@ -31,6 +31,11 @@ Supported arm architectures are `armv8`+ and `aarch64/arm64` (e.g.: Raspberry Pi
 4. Open the registration link in a browser in which you are logged into your Earnapp account.
 5. Verify that a new device is available in your Earnapp account. This may take some time.
 
+```bash
+cd balena-earnapp/
+balena push <FLEET_NAME>
+```
+
 ## Caveats
 
 * Each device in your fleet must be manually registered in your Earnapp account with the provided link.
