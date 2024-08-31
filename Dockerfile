@@ -3,7 +3,7 @@ FROM debian:latest
 ARG BUILDPLATFORM BUILDOS BUILDARCH BUILDVARIANT TARGETPLATFORM TARGETOS TARGETARCH TARGETVARIANT
 ARG DEBIAN_FRONTEND='noninteractive'
 
-RUN apt update && apt upgrade
+RUN apt update && apt upgrade -y || apt-get update && apt-get upgrade -y
 
 RUN apt install -y \
   curl \
